@@ -1,17 +1,6 @@
-
-#"1st program"
-print(9 ** 0.5 * 5)
-
-#"2nd program"
-print(9.99>9.98 and 1000!=1001)
-
-#"3rd program"
-print(2 * 2 + 2)
-print(2 * (2 + 2))
-print(2 * 2 + 2 == 2 * (2 + 2))
-
-#"4th program"
-print('123.456')
-print(123.456)
-print(123.456 * 10)
-print(int(1234.56%10))
+x = 10
+y = x
+print (id(x), id(y))
+x,y = 5,6
+print(id(x),id(y))
+flake8
